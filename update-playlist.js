@@ -6,10 +6,10 @@ const fs = require('fs');
 const FIREBASE_DB_URL = "https://ipl2020-46d2f.firebaseio.com/Prmovies.json";
 
 // Sirf ek hi link/path yahan dalein jise aapko scrape karna hai
-const TARGET_PATH = "genre/south-special/"; 
+const TARGET_PATH = "genre/comedy"; 
 
 // Yahan aap apna group name rakh sakte hain jo M3U playlist mein show hoga
-const GROUP_NAME = "✨ South Special ✨"; 
+const GROUP_NAME = "✨ Comedy movies ✨"; 
 
 const USER_AGENTS = [
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
